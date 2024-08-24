@@ -110,7 +110,7 @@ ul{
 
 
 input{
-    border-radius: 8px;
+    border-radius: 5px;
     padding: 8px 15px;
     background-color: #2c3e50;
     color: #fff;
@@ -122,7 +122,7 @@ input{
     margin: 0 auto;
     width: 960px;
     margin-top: 60px;
-    padding-bottom: 800px;
+    padding-bottom: 50px;
     padding-top: 25px;
     background-color: #fff;
     color: #597add;
@@ -143,7 +143,7 @@ input{
 .aprendmais>h2::after {
     content: '';
     position: absolute;
-    width: 19%;
+    width: 20%;
     height: 4px;
     background: #597add;
     bottom: 368px;
@@ -167,13 +167,13 @@ img{
     max-width: 100%;
 }
 
-article>h3{
+article>a>h3{
     font-size: 14px;
     color: black;
     margin-top: 5px;
 }
 
-article>p{
+article>a{
     font-size: 13px;
     color: #9e9e9e;
     margin-top: 5px;
@@ -182,4 +182,187 @@ article>p{
 .fundo{
     background-color: #2c3e50;
     padding-bottom: 50px;
+}
+
+.aprendmais>p:hover{
+    color: #597add;
+}
+
+.aprendmais>img{
+    transition: all .05s ease;
+    
+}
+
+.aprendmais>article:hover img{
+    transform: scale(1.05);
+    transform-origin: center;
+    transform-origin: bottom;
+}   
+.aprendmais>a{
+    height: 184px;
+}
+
+img{
+    overflow: hidden;
+    object-fit: cover;
+}
+
+article{
+    overflow: hidden;
+}
+
+/* segunda section */
+
+.aprendmais2{
+    margin: 0 auto;
+    width: 960px;
+    padding-top: 25px;
+    background-color: #fff;
+    color: #597add;
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+
+.aprendmais2>h2{
+    font-size: 20px;
+    width: 100%;
+    margin-left: 0px;
+    padding-bottom: 5px;
+    font-weight: lighter;
+    border-bottom: 5px solid #bababa;
+    text-align: left;
+}
+
+.aprendmais2>h2::after {
+    content: '';
+    position: absolute;
+    width: 20%;
+    height: 4px;
+    background: #597add;
+    bottom: -26px;
+    left: 280px;
+}
+
+
+.aprendmais2>p:hover{
+    color: #597add;
+}
+
+.aprendmais2>img{
+    transition: all .05s ease;
+    
+}
+
+.aprendmais2>article:hover img{
+    transform: scale(1.05);
+    transform-origin: center;
+    transform-origin: bottom;
+}   
+.aprendmais>a{
+    height: 184px;
+}
+
+.formu>h3{
+    color: #fff;
+    text-align: center;
+    width: 960px;
+    margin: 0 auto;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.formu{
+    background-color: rgb(76,100,132);
+    padding: 50px 0px 60px ;
+    margin: 0 auto;
+
+}
+form{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.formpt1>input{
+    width: 450px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    background-color: #fff;
+    color: #9e9e9e;
+}
+.formpt1{
+    width: 35%;
+    float: left;
+    margin-left: 10px;
+}
+
+textarea{
+    width: 430px;
+    margin-top: 5px;
+    border-radius: 5px;
+    text-align: left;
+    padding: 0px;
+}
+
+.txt{
+    width: 10%;
+    float: right;
+    margin-right: 340px;
+}
+a>input{
+    background-color: #2c3e50;
+}
+
+input{
+    background-color: #ff4a4a;
+}
+
+input[type="submit"] {
+    background-color: rgb(0, 168, 34);
+
+}
+
+
+
+.bts{
+    margin-left: 750px;
+}
+
+.bts>input{
+    margin-left: 20px;
+
+}
+
+footer{
+    background-color: #2c3e50;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+footer>ul>li{
+    display: inline-block;
+
+}
+
+footer>ul{
+    margin-left: 900px;
+}
+
+.baixo{
+    width: 960px;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+
+.baixo>ul>li{
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.baixo>p{
+    float: left;
+}
+
+.baixo>ul{
+    float: right;
 }
